@@ -1,0 +1,18 @@
+@import "tailwindcss";
+body {
+  /* @apply bg-main-white; */
+  @apply bg-main-black;
+}
+
+@utility container {
+  margin-inline: auto;
+  padding-inline: 3rem;
+  max-width: 1200px;
+}
+@theme {
+  --font-main: "Orbitron Variable", sans-serif;
+  --font-second: "Oswald Variable", sans-serif;
+  --color-main-black: #0c0b0b;
+  --color-main-white: #e9e5e5;
+  --color-main-neon: #e9ff70;
+}
