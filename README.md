@@ -8,7 +8,7 @@
 
 _Beyond the horizon._
 
-<!-- **[🔗 Live Demo](https://your-demo-url.vercel.app)** -->
+**[🔗 Live Demo](https://melihfidan-nova.vercel.app)**
 
 ![React](https://img.shields.io/badge/React_19-0c0b0b?style=flat-square&logo=react&logoColor=61DAFB)
 ![Vite](https://img.shields.io/badge/Vite_8-0c0b0b?style=flat-square&logo=vite&logoColor=FFD62E)
