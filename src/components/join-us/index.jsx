@@ -66,28 +66,28 @@ function JoinUs() {
   ];
 
   return (
-    <div id="joinus">
+    <div id="joinus" className="overflow-x-clip">
       <SectionTitle>JOINUS</SectionTitle>
       <div className="container relative my-30">
         <div className="absolute left-1/2 top-1/2 -translate-1/2 w-[400px] h-[400px] bg-main-neon/40 rounded-full blur-[120px] opacity-30 animate-pulse -z-100 pointer-events-none"></div>
         <div className="mb-30 flex flex-col items-center justify-center gap-15 text-white">
           <h4 className="text-3xl font-main text-main-neon">SOCIAL MEDIA</h4>
-          <div className="w-full font-second flex gap-40 max-lg:gap-20 max-sm:gap-10 justify-center items-center">
+          <div className="w-full font-second flex gap-40 max-lg:gap-20 max-sm:gap-5 justify-center items-center">
             <a
               href="#"
-              className="text-xl max-md:text-lg tracking-[0.25em] hover:text-main-neon"
+              className="text-xl max-md:text-lg max-sm:text-sm tracking-[0.25em] max-sm:tracking-[0.12em] whitespace-nowrap hover:text-main-neon"
             >
               DISCORD
             </a>
             <a
               href="#"
-              className="text-xl max-md:text-lg tracking-[0.25em] hover:text-main-neon"
+              className="text-xl max-md:text-lg max-sm:text-sm tracking-[0.25em] max-sm:tracking-[0.12em] whitespace-nowrap hover:text-main-neon"
             >
               TWITTER
             </a>
             <a
               href="#"
-              className="text-xl max-md:text-lg tracking-[0.25em] hover:text-main-neon"
+              className="text-xl max-md:text-lg max-sm:text-sm tracking-[0.25em] max-sm:tracking-[0.12em] whitespace-nowrap hover:text-main-neon"
             >
               PRESS KIT
             </a>

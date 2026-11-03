@@ -6,7 +6,7 @@ function Hero() {
     <div id="hero" className="w-full min-h-dvh text-main-neon">
       <GalaxyBackground />
 
-      <h1 className="font-second tracking-widest absolute bottom-0 left-1/2 -translate-x-1/2 text-[8vh] max-lg:text-[6vh] max-sm:text-[5vh] text-nowrap">
+      <h1 className="font-second tracking-widest absolute bottom-0 left-1/2 -translate-x-1/2 text-[min(8vh,8vw)] max-lg:text-[min(6vh,8vw)] max-sm:text-[min(5vh,8vw)] text-nowrap">
         BEYOND THE HORIZON.
       </h1>
     </div>
